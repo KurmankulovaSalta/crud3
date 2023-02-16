@@ -1,0 +1,33 @@
+.div {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  height: 150px;
+  text-align: center;
+  margin-left: 450px;
+}
+span {
+  color: blue;
+  font-weight: bold;
+  font-size: 20px;
+}
+.main-modal {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background-color: rgb(220, 213, 213);
+  display: none;
+}
+.inner-modal {
+  width: 500px;
+  height: 200px;
+  background-color: #fff;
+  margin: auto;
+  text-align: center;
+}
+
+.close {
+  text-align: end;
+}
